@@ -6,5 +6,5 @@ def fac(n):
     return fac(n-1)*n
 
 print('Факториал какого числа требуется посчитать?\nВведите число: ')
-n = int(input())
-print('Ответ: ', fac(n))
+
+print('Ответ: ', fac(5))
